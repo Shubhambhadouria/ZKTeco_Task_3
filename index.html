@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/index.css">
+</head>
+<body>
+    <nav id="navbar">
+        <h1>&ltTask 3&gt</h1>
+        <h2>Form Validation SignUp Page</h2>
+    </nav>
+    <div class="main">
+        <form>
+            <div class="form-content">
+                <label for="firstname">First Name</label><br>
+                <input type="text" id="firstname" placeholder="Enter First Name"><br>
+                <small class="error1">Error Message</small>
+            </div>
+            <div class="form-content">
+                <label for="lastname">Last Name</label><br>
+                <input type="text" id="lastname" placeholder="Enter Last Name"><br>
+                <small class="error2">Error message</small>
+            </div>
+            <div class="form-content">
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone" placeholder="Enter Phone Number"><br>
+                <small class="error3">Error message</small>
+            </div>
+            <div class="form-content">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" placeholder="Enter your email"><br>
+                <small class="error4">Error message</small>
+            </div>
+            <div class="form-content">
+                <label for="address">Address</label><br>
+                <input type="text" id="address" placeholder="Enter your address"><br>
+                <small class="error5">Error message</small>
+            </div>
+            <div class="form-content">
+                <label for="password">Password</label><br>
+                <input type="password" id="password" placeholder="Enter Password"><br>
+                <small class="error6">Error message</small>
+            </div>
+            <div class="form-content">
+                <div>
+                    <label class="genstyle">Gender</label><br>
+                    <input type="radio" name="gender" value="Male" checked>
+                    <label class ="att" for="">Male</label> 
+                    <input type="radio" name="gender" value="Female">
+                    <label class ="att"  for="">Female</label> 
+                    <input type="radio" name="gender" value="Other">
+                    <label for="">Other</label> 
+                </div>
+            </div>
+            <button class="reset" onclick="reset()">Reset</button>
+            <button class="submit" onclick="registration()">Submit</button>
+        </form>
+    </div>
+    
+    <script src="./Jscript/index.js"></script>
+</body>
+</html>
